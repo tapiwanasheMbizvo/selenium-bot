@@ -180,6 +180,5 @@ class Booking(webdriver.Chrome):
 
         df = pd.DataFrame(data)
 
-        
         df.to_csv(r"somefile.csv", index=False)
         return df
